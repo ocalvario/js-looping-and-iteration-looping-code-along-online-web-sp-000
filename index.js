@@ -7,9 +7,10 @@ function writeCards(names, event) {
     return cards
 }
 
-function countdown(integer) {
-    while (integer > -1 ) {
-        console.log(integer);
-        integer--;
-    }
-} 
+function countDown(startNumber) {
+  let currentNumber = startNumber
+  while (currentNumber > -1){
+    console.log(currentNumber)
+    currentNumber -= 1
+  }
+}} 
