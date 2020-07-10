@@ -13,4 +13,4 @@ function countDown(startNumber) {
     console.log(currentNumber)
     currentNumber -= 1
   }
-}} 
+}
